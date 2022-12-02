@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cookie&family=Nanum+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: url('https://source.unsplash.com/1280x720?landscap');
+    background-size: cover;
+    height: 100vh;
+    text-transform: capitalize;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+
+
+    
+}
+
+.card{
+    box-sizing: border-box;
+    background-color: #000000d0;
+    color: white;
+    min-height: 40vh;
+    min-width: 30vw;
+    padding: 3em;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 25px;
+    
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 1em 1em;
+   
+}
+
+button{
+    /* border-radius: 50%; */
+    background: transparent;
+    color: white;
+    margin: 1em;
+    border: none;
+    overflow: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color:yellow;
+    transition: color 1.5s linear;
+}
+
+input{
+    outline: none;
+    border: none;
+   padding: .5em;
+   border-radius: 15px;
+   background-color: #7c7c7c2b;
+   color: white;
+   font-size: 1em;
+}
+
+.temp{
+    margin: 5px;
+    font-size: 1em;
+    color: white;
+}
+.decription {
+    color:yellow;
+    padding-top: 0 ;
+    padding-bottom: 3px;
+}
+
+.icon{
+    color:white;
+}
+
+.city {
+    padding: 2px;
+    font-size: 2rem;
+    color: yellow;
+}
+
